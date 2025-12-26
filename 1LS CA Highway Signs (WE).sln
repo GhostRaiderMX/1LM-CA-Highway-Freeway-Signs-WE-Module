@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34607.119
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeProjectName", "_BaseModule\ChangeProjectName.csproj", "{0C267C04-0E5A-4BA9-BB6C-536BB51F6671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1LS CA Highway Signs (WE)", "_BaseModule\1LS CA Highway Signs (WE).csproj", "{0C267C04-0E5A-4BA9-BB6C-536BB51F6671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

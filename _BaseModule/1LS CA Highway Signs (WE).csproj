@@ -13,18 +13,18 @@
 	<!--Imports must be after PropertyGroup block-->
 	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props" />
 	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets" />
-  <Import Project="$(SolutionDir)\_Build\belzont_public.targets" />
+  <Import Project="..\_Build\belzont_public.targets" />
 
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
-    <ModId></ModId>
+    <ModId>129607</ModId>
     <Version>1.0.0</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
-    <DisplayName>Your DisplayName (WE-Module)</DisplayName>
-    <ShortDescription>A WriteEverywhere-Module that give the ability to ....</ShortDescription>
+    <DisplayName>1LS CA Highway (Freeway) Signs (WE Module)</DisplayName>
+    <ShortDescription>A Write Everywhere Module that contains 1 lane small California highway (freeway) signs.</ShortDescription>
     <!-- Your Links. To add more Linktypes Follow the Tutorial on adding more Link Types -->
-    <ForumLink></ForumLink>
+    <ForumLink>https://forum.paradoxplaza.com/forum/threads/1ls-california-highway-freeway-signs-we-module.1891719</ForumLink>
     <GitHubLink></GitHubLink>
     <YoutubeLink></YoutubeLink>
     <DiscordLink></DiscordLink>
@@ -42,12 +42,6 @@
     <Dependency Include="WriteEverywhere">
       <ModId>92908</ModId>
       <DisplayName>Write Everywhere</DisplayName>
-    </Dependency>
-
-    <!-- Add Dependancy here. WE will be ofc always be a dependency, if there is no extra Dependency you may delete the this one -->
-    <Dependency Include="MOD_NAME">
-      <ModId>MOD_ID</ModId>
-      <DisplayName>DISPLAY_NAME</DisplayName>
     </Dependency>
   </ItemGroup>
   
@@ -138,6 +132,10 @@
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>portable</DebugType>
   </PropertyGroup>
 
 </Project>

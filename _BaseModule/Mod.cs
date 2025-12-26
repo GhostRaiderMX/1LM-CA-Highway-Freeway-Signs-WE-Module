@@ -31,9 +31,10 @@ namespace _BaseModule
         }
 
         private bool isLoaded = false;
-        private void DoWhenLoaded(){
+        private void DoWhenLoaded()
+        {
             log.Info($"Loading patches");
-            if (!DoPatches()) 
+            if (!DoPatches())
                 return;
 
             RegisterModFiles();

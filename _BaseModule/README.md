@@ -1,26 +1,34 @@
-# WE-Module for Cities: Skylines II
+# 1LS California Highway (Freeway) Signs for Cities: Skylines II
 
-Hello!  
-This is a **Write Everywhere module** that brings ... into your game.  
+Hello Cities: Skylines II civil engineers!
+This is a **Write Everywhere Module** that brings 1 lane small California highway (freeway) signs into Cities Skylines 2.  
 
 ---
 
 ##  Features
 
+- 1 Lane (Small) California Highway (Freeway) signs inspired by California's MUTCD
+- 35 total signs (see screenshots)
+- WE Layout included for easy implementation onto your highways (freeways)
 
 ---
 
 ##  How to Use
 
 1. Install the **Requirements** needed for this mod.
-3. Place a matching road structure in-game.  
+3. Place a matching road structure in-game. 
 4. Open **Write Everywhere** Selector (Default: `CTRL + Shift + W`).
 4. Click on the structure you wanna edit.  
-5. Click on the Folder Icon(*Import/load...*)
+5. Click on the Folder Icon(*Import/load...*).
 5. Click on `Import layout from xml at root...`
-6. Click on the puzzle-piece(*Templates from mods*)
-7. Click on `MaestroGermanSigns`
-8. Choose the desired template and customize it.  
+6. Click on the puzzle-piece (*Templates from mods*).
+7. Click on `1LS CA Highway Signs (WE)`.
+8. Click on `1LS CA Highway Sign.wedefault.xml`.
+9. They layout will be added to WE's Components Tree.
+10. Click the down arrow on `1LS CA Highway Sign`.
+11. Select `Sign Image`.
+12. On the `CONTENT` window, set `Atlas` to `1LS CA Highway Signs (WE):1LS CA Highway Signs`.
+13. Set `Image` and customize it to your liking!  
 
 ### Customize and Save Signs
 - Select the root object → **Save & Export as XML**  
@@ -38,11 +46,7 @@ This is a **Write Everywhere module** that brings ... into your game.
 
 ###  Fonts
 
-This mod uses **x different fonts**.  
-For copyright reasons, these fonts are **not included in the mod** and must be downloaded and installed manually. It's optional but recommended.
-
-#### Fonts used:
-- [Link to Font]()
+No fonts included. Any True-Type font can be used with these signs. 
 
 ###  How to install fonts
 1. Download the required fonts from the Links. (**Fileformat needs to be .ttf**)
