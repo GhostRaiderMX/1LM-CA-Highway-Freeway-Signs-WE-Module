@@ -1,2 +1,2 @@
-# v1.0.1
-- Added missing 1LM EO RF1 and 1LM O RF1 signs.
+# v1.1
+- Adds additional 41 new 1LM CA Highway signs with California Exit Tab Style 1 with Ext1 WE atlas pack.
