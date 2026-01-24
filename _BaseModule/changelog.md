@@ -1,2 +1,4 @@
-# v1.1
-- Adds additional 41 new 1LM CA Highway signs with California Exit Tab Style 1 with Ext1 WE atlas pack.
+# v1.0.2
+- Added missing 1LM OD 2, 1LM OD RF1 2, 1LM OD RF2 2, 1LM OL 2, 1LM OL RF1 2, 1LM OL RF2 2, 1LM OLL 2, 1LM OLL RF1 2, 1LM OR 2, 1LM OR RF1 2, 1LM OR RF2 2, 1LM ORL 2, and 1LM ORL RF1 2 signs.
+- Added missing 1LM OD 2 ExtR, 1LM OD RF1 2 ExtR, 1LM OD RF2 2 ExtR, 1LM OR RF1 2 ExtR, 1LM OR RF2 2 ExtR, 1LM ORL 2 ExtR, and 1LM ORL RF1 2 ExtR signs.
+- Added missing 1LM OD 2 ExtL, 1LM OD RF1 2 ExtL, 1LM OD RF2 2 ExtL, 1LM OL 2 ExtL, 1LM OL RF1 2 ExtL, 1LM OL RF2 2 ExtL, 1LM OLL 2 ExtL, and 1LM OLL RF1 2 ExtL signs.
